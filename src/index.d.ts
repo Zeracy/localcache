@@ -6,6 +6,7 @@ type LocalCacheEntryOptions = {
     defaultValue: Value;
     handleAs: handlerType;
 };
+
 declare function _default(key: string, options: LocalCacheEntryOptions): LocalCacheEntry;
 
 declare class LocalCacheEntry {
