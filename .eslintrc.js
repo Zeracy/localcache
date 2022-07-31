@@ -2,7 +2,6 @@ module.exports = {
     extends: [
         'zeracy',
         'zeracy/jsdoc',
-        'zeracy/json',
         'zeracy/jsdoc/required',
         'zeracy/typescript',
     ],

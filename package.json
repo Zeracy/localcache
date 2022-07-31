@@ -16,7 +16,7 @@
   "devDependencies": {
     "@babel/preset-env": "^7.18.9",
     "eslint": "^8.18.0",
-    "eslint-config-zeracy": "https://github.com/Zeracy/eslint-config-zeracy",
+    "eslint-config-zeracy": "https://github.com/Zeracy/eslint-config-zeracy#1.0.0",
     "husky": "^8.0.1",
     "jest": "^28.1.3",
     "typescript": "^4.7.4"

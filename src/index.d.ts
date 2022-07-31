@@ -18,6 +18,7 @@ declare class LocalCacheEntry {
     set(value: Value): LocalCacheEntry;
     remove(): LocalCacheEntry;
 }
+
 export {
     LocalCacheEntryOptions,
     Value,
