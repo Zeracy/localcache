@@ -11,7 +11,7 @@ yarn add https://github.com/Zeracy/localcache
 
 ## Usage
 
-```
+```js
 import localCache from 'localcache';
 
 const myEntry = localCache('entryKey');
@@ -21,19 +21,19 @@ const myEntry = localCache('entryKey');
 #### get
 Returns the current value of the entry.
 
-```
+```js
 myEntry.get();
 ```
 #### set
 Sets a new value to the instance (as well as saving it in the localStorage).
 
-```
+```js
 myEntry.set('value');
 ```
 #### remove
 Deletes the entry in the localStorage.
 
-```
+```js
 myEntry.remove();
 ```
 
@@ -41,10 +41,9 @@ myEntry.remove();
 It's possible to handle three types of data: string, array and object.
 Simply import the handler you require along side localcache and pass it as an option.
 
-```
+```js
 import localCache, { HANDLE_ARRAY, HANDLE_OBJECT } from 'localcache';
 
 const myArrayEntry = localCache('entryArrayKey', { handleAs: HANDLE_ARRAY });
 const myObjectEntry = localCache('entryObjectKey', { handleAs: HANDLE_OBJECT });
 ```
-
