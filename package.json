@@ -1,0 +1,24 @@
+{
+  "name": "localcache",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A localStorage wrapper that facilitates storing different types of data.",
+  "repository": "git@github.com:Zeracy/localcache.git",
+  "license": "MIT",
+  "author": "Zeracy <joaoddvieira@gmail.com>",
+  "main": "./src/index.js",
+  "scripts": {
+    "lint:js": "yarn eslint src --ext=js",
+    "lint:ts": "yarn eslint src --ext=ts",
+    "prepare": "husky install",
+    "test": "jest --config=jest.config.js"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.9",
+    "eslint": "^8.18.0",
+    "eslint-config-zeracy": "https://github.com/Zeracy/eslint-config-zeracy",
+    "husky": "^8.0.1",
+    "jest": "^28.1.3",
+    "typescript": "^4.7.4"
+  }
+}

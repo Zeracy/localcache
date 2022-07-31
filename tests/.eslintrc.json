@@ -1,0 +1,10 @@
+
+{
+    "extends": [
+        "zeracy",
+        "zeracy/jest",
+        "zeracy/jsdoc",
+        "zeracy/json",
+        "zeracy/jsdoc/required"
+    ]
+}
