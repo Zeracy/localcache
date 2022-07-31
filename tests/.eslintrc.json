@@ -4,7 +4,7 @@
         "zeracy",
         "zeracy/jest",
         "zeracy/jsdoc",
-        "zeracy/json",
+        "zeracy",
         "zeracy/jsdoc/required"
     ]
 }
